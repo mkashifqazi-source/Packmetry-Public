@@ -1,0 +1,21 @@
+# Documentation-only draft. Use an explicit publication allowlist; ignore rules are not a substitute for review.
+/PUBLICATION_REVIEW.md
+/.publication-review/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*.json
+*client_secret*.json
+*token*.json
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.map
+*.log
+.next/
+dist/
+build/
